@@ -1,0 +1,28 @@
+# Jupyter auto-saves
+.ipynb_checkpoints/
+
+# Large training datasets (regenerable / too big for GitHub)
+final_dataset_with_all_features_v3.1.csv
+phishing_urls_nlp_dataset.csv
+
+# Intermediate TF-IDF matrices and split labels
+*.npz
+y_train_nlp.csv
+y_test_nlp.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Local IDE / tool settings
+.claude/
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
